@@ -1,0 +1,43 @@
+.tag-info {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.tag-info h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tag-info p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.tag-info ul {
+  margin-bottom: 20px;
+}
+
+.tag-info li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.tag-info pre {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.tag-info code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: #333;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <style>
+      /* Style the contact information */
+      .contact-info {
+        font-size: 1.2em;
+        margin-top: 50px;
+      }
+      .contact-info p {
+        margin: 0;
+      }
+      /* Style the contact form */
+      .contact-form {
+        margin-top: 50px;
+      }
+      .contact-form label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: none;
+      }
+      .contact-form button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .contact-form button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Contact information section -->
+    <section class="contact-info">
+      <h1>Контакты</h1>
+      <p>Наш адрес: г. Москва, ул. Пушкина, д. 10</p>
+      <p>Телефон: +7 (919) 037-71-92</p>
+      <p>Email: vlad.bakatkin@gmail.com</p>
+    </section>
+    <!-- Contact form section -->
+    <section class="contact-form">
+      <h2>Напишите нам</h2>
+      <form>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </body>
+</html>

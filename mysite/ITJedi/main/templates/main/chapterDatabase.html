@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Базы данных | IT Jedi</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/css/about.css' %}">
+</head>
+<body>
+	<header>
+		<h1>IT Jedi</h1>
+		<nav>
+			<ul>
+				<li class="active"><a href="database">Базы данных</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="page-info">
+			<h2>Базы данных</h2>
+			<p>Базы данных - это основной инструмент для хранения, организации и управления большими объемами информации. Они используются в различных приложениях, начиная от простых блогов и интернет-магазинов до сложных систем управления данными и финансовых приложений.</p>
+		</section>
+
+		<section class="page-info">
+			<h2>Статьи</h2>
+			<p>Здесь вы можете найти статьи об использовании и применении баз данных в программировании.</p>
+			<li>
+              <a href="sd">
+                <h3>Как ускорить работу базы данных</h3>
+                <p>Лучшие советы</p>
+              </a>
+        </li>
+		</section>
+
+		<section class="frameworks-info">
+
+						<h3>SQL (Structured Query Language)</h3>
+			<p>SQL - это язык программирования, который используется для работы с реляционными базами данных. Он позволяет создавать таблицы, вставлять данные, обновлять и удалять записи, а также выполнять множество других операций..</p>
+
+			<h3>RM (Object-Relational Mapping) фреймворки</h3>
+			<p>Помимо языков запросов, существуют также ORM (Object-Relational Mapping) фреймворки, такие как Hibernate для Java и SQLAlchemy для Python. Они предоставляют удобный интерфейс для работы с базами данных, который скрывает сложности написания SQL-запросов.</p>
+
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 IT Jedi</p>
+	</footer>
+
+</body>
+</html>

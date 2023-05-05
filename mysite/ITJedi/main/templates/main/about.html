@@ -1,0 +1,71 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IT Jedi</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/css/about.css' %}">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="programlang">Языки программирования</a></li>
+        <li class="menu-item"><a href="frameworks">Фреймворки и библиотеки</a></li>
+        <li class="menu-item"><a href="database">Базы данных</a></li>
+        <li class="menu-item"><a href="web">Веб-разработка</a></li>
+        <li class="menu-item"><a href="#" class="active">Общие вопросы</a></li>
+        <!-- Добавляем дополнительный пункт меню "Прочее" -->
+        <li class="menu-item"><a href="#">Прочее</a></li>
+      </ul>
+    </nav>
+    <h1>IT Jedi production</h1>
+    <p>Общайтесь друг с другом, делитесь опытом и знаниями в различных областях программирования.</p>
+  </header>
+  <main>
+    <section class="latest-posts">
+      <h2>Последние посты</h2>
+      <ul>
+        <li>
+          <a href="sf">
+            <h3>Как выбрать фреймворк для веб-разработки</h3>
+            <p>Для вас подойдет именно он...</p>
+          </a>
+        </li>
+        <p></p>
+        <li>
+          <a href="sp">
+            <h3>10 лучших языков программирования для начинающих</h3>
+            <p>Начните программировать уже сейчас!</p>
+          </a>
+        </li>
+        <p></p>
+        <li>
+          <a href="sd">
+            <h3>Как ускорить работу базы данных</h3>
+            <p>Лучшие советы</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="popular-tags">
+      <h2>Популярные теги</h2>
+      <ul>
+        <li><a href="teg/python">python</a></li>
+        <p></p>
+        <li><a href="teg/java">java</a></li>
+        <p></p>
+        <li><a href="teg/javascript">javascript</a></li>
+        <p></p>
+        <li><a href="teg/php">php</a></li>
+        <p></p>
+        <li><a href="#">sql</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 IT Jedi production</p>
+  </footer>
+</body>
+</html>
+
